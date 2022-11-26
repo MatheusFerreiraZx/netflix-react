@@ -9,8 +9,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
 	const [movies, setMovies] = useState([]);
 	const [trailerUrl, setTrailerUrl] = useState("");
 
-	// A snippet of code which runs based on specific condition,
-
 	useEffect(() => {
 		async function fetchdata() {
 			const request = await axios.get(fetchUrl);
@@ -50,7 +48,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
 	};
 
 	console.table(movies);
-	// Pro tip always use console.table you'll be suprised by the output in console menu....Thank me later
 
 	return (
 		<div className="row">

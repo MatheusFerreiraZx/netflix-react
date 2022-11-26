@@ -12,6 +12,7 @@ function SignInScreen() {
     e.preventDefault();
     setNewLogin(true);
   };
+
   const signIn = (e) => {
     e.preventDefault();
     auth

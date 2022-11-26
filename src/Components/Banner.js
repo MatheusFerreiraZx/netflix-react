@@ -20,6 +20,7 @@ function Banner() {
 		}
 		fetchData();
 	}, []);
+	
 	const handleClick = (movie) => {
 		if (trailerUrl) {
 			setTrailerUrl("");

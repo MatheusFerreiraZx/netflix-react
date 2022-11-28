@@ -8,7 +8,7 @@ function Footer() {
         <h3>
           <span className="footer__start">Feito com esforço por</span> Matheus Ferreira{" "}
         </h3>
-        <p>🔥 Clone do NETFLIX em REACTJS em 25/09/2021</p>
+        <p> Clone do NETFLIX em REACTJS em 25/09/2021</p>
         <p>Direitos de imagem para Netflix Dados pegos do site Themoviedb.org </p>
       </div>
     </footer>

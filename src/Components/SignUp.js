@@ -3,7 +3,7 @@ import "../assets/SignUp.css";
 import { auth } from "../firebase";
 import SignInScreen from "./SignIn";
 
-function SignUpScreen({ email }) {
+function SignUpScreen({ emailRef }) {
   const [login, setLogin] = useState(false);
   const displayNameRef = useRef(null);
   const emailRef = useRef(null);
